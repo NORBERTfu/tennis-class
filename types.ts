@@ -7,6 +7,11 @@ export enum CourtType {
   SOCIAL = 'SOCIAL'          // 球聚
 }
 
+export interface MapInfo {
+  address: string;
+  url: string;
+}
+
 export interface CourseSlot {
   id: string;
   type: CourtType;
@@ -22,4 +27,5 @@ export interface Booking {
   slotId: string;
   studentName: string;
   phone: string;
+  calendarLink?: string;
 }
