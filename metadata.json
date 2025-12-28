@@ -1,0 +1,5 @@
+{
+  "name": "Tennis Coach Scheduler",
+  "description": "A sophisticated tennis course booking application with 1-hour split slots and full 5-month schedule for 2026.",
+  "requestFramePermissions": []
+}
